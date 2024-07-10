@@ -3,8 +3,6 @@
 *{
     font-family: "Azeret Mono", monospace;
     font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
   }
 
 
@@ -62,6 +60,7 @@
     color: aliceblue;
     background-color: black;
     font-size: 20px;
+    text-decoration: none;
     
 }
 /* section two start */
@@ -103,7 +102,6 @@
     line-height: 26px;
     text-align: center;
     opacity: 0.7;
-
 }
 #section_third_title{ 
     font-weight: 800;
@@ -117,15 +115,17 @@
     align-items: center;
 }
 .section_third_YT_link{
-    width: 60%;
-    height: 40%;
-    margin: auto auto;
+    width: 1200px;
+    margin: 0 auto;
     justify-content: center;
     text-align: center;   
     box-sizing: border-box;
     border: 1px solid rgba(13, 19, 33, 0.2);
     border-radius: 16px;
     padding: 30px 1px;
+}
+#border{
+    border-radius: 16px;
 }
 /* My current Target */
 
@@ -144,17 +144,17 @@
     gap: 24px;
     margin-top: 48px;
 }
-.hero_1{
-    border-radius: 16px;
-    padding: 40px;
+#hero_1{
+    /* border-radius: 16px; 
+    padding: 40px;*/
     background: rgba(255, 76, 30, 0.05);
 }
 ----------------------
 
-.hero_2{
+#hero_2{
  background-color: rgba(0, 76, 232, 0.05);
 }
-.hero_3{
+#hero_3{
     background-color: rgba(255, 223, 0, 0.05);
 }
 .container_paragraph{
@@ -176,21 +176,18 @@
     
 }
 .skills{
-    width: 85%;  
-    margin: 20px auto;
-    border: 1px solid turquoise;
+    width: 100%;  
+    margin: 0 auto;
+    
 }
 
-.skills-container{
-    
+.skills-container{  
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 24px;
 }
-
 .skill {
-
     width: 28%;
     padding: 30px;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
@@ -227,6 +224,7 @@
     width: 85%;
     height: auto;
     margin: 90px auto;
+    text-decoration: #ffffff;
    
 }
 .five_container{
@@ -255,4 +253,26 @@
     display: inline-block;
     text-decoration: none;
     margin-right: 30px;    
+}
+.resume-button{
+    padding: 12px;
+    border-radius:8px ;
+    box-sizing: border-box;
+    border-color: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+
+    
+}
+.a{
+    text-decoration: none;
+    color: rgb(13, 19, 33);
+    text-align: center;
+    opacity: 0.8;
+}
+#button{
+    color: #0D1321;
+    text-decoration: none;
+}
+#text_color{
+    text-decoration: white;
 }
